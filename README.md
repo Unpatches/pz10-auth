@@ -70,41 +70,39 @@ pz10-auth/
 ```
 
 ## Отчёт о проделанной работе
-### Регистрация POST
+### Логин админа POST
 ```
-http://185.250.46.179:8081/auth/register
-```
-```
-{"email":"user@example.com","password":"Secret123!"}
-```
-
-<img width="457" height="505" alt="image" src="https://github.com/user-attachments/assets/33face01-2e6b-4f2d-96fa-74a6bc5b52cd" />
-
-
-### Повторная регистрация POST
-```
-http://185.250.46.179:8081/auth/register
+http://185.250.46.179:8082/api/v1/login
 ```
 ```
-{"email":"user@example.com","password":"AnotherPass"}
+{"email":"admin@example.com","password":"secret123"}
 ```
 
-<img width="454" height="447" alt="image" src="https://github.com/user-attachments/assets/d48c407c-6581-408d-a3c8-3c58ffb33bbf" />
+<img width="825" height="495" alt="Снимок экрана 2025-12-09 в 17 21 29" src="https://github.com/user-attachments/assets/4e57d47f-ca87-4745-aeb0-75e5388b0ba5" />
 
 
-### Вход (верный) POST
+### Логин обычного пользователя (user) POST
 ```
-http://185.250.46.179:8081/auth/login
+http://185.250.46.179:8082/api/v1/login
 ```
 ```
-{"email":"user@example.com","password":"Secret123!"}
+{"email":"user@example.com","password":"secret123"}
 ```
 
-<img width="409" height="501" alt="image" src="https://github.com/user-attachments/assets/ed2d4711-fbe1-4731-8446-76ddc766a1cd" />
+<img width="817" height="507" alt="Снимок экрана 2025-12-09 в 17 43 50" src="https://github.com/user-attachments/assets/ef570f56-e880-4414-b952-90d348ec25cc" />
 
 
 
-### Вход (неверный) POST
+### Проверка /api/v1/me
+```
+http://185.250.46.179:8082/api/v1/me
+```
+
+<img width="634" height="418" alt="Снимок экрана 2025-12-09 в 17 56 15" src="https://github.com/user-attachments/assets/316a63e1-d9ad-498e-9db0-a0e0d7dc2b4d" />
+
+
+
+### Проверка /api/v1/admin/stats
 ```
 http://185.250.46.179:8081/auth/login
 ```
