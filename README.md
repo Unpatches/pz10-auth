@@ -19,7 +19,7 @@
 Клонировать репозиторий:
 
 ```
-git clone https://github.com/Unpatches/pz9-auth
+git clone https://github.com/Unpatches/pz10-auth
 cd pz9-auth
 ```
 
@@ -28,7 +28,12 @@ cd pz9-auth
 ```
 go run ./cmd/server
 ```
-
+```
+make docker-build
+```
+```
+make docker-run
+```
 
 ------
 
