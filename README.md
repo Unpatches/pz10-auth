@@ -110,4 +110,27 @@ http://185.250.46.179:8082/api/v1/admin/stats
 <img width="606" height="377" alt="Снимок экрана 2025-12-09 в 18 04 54" src="https://github.com/user-attachments/assets/ace420ad-23be-4fee-bb71-3f970cf894c5" />
 
 
+### admin может получить любого пользователя
+```
+http://185.250.46.179:8082/api/v1/users/1
+```
+
+<img width="603" height="419" alt="Снимок экрана 2025-12-09 в 18 08 15" src="https://github.com/user-attachments/assets/670e0e53-b7fb-4ad9-9f4a-b168e8c8ba0a" />
+
+
+### Админ запрашивает обычного пользователя
+```
+http://185.250.46.179:8082/api/v1/users/2
+```
+
+<img width="618" height="412" alt="Снимок экрана 2025-12-09 в 18 09 49" src="https://github.com/user-attachments/assets/d8ce8517-a0dd-4ab5-9ddd-0bdaadec7a72" />
+
+
+### Обновление пары токенов для админа
+```
+http://185.250.46.179:8082/api/v1/refresh
+```
+
+<img width="823" height="480" alt="Снимок экрана 2025-12-09 в 18 13 10" src="https://github.com/user-attachments/assets/f141e22f-5828-4523-b2e5-6af05de2cd8b" />
+
 ------
