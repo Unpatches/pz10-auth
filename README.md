@@ -104,12 +104,10 @@ http://185.250.46.179:8082/api/v1/me
 
 ### Проверка /api/v1/admin/stats
 ```
-http://185.250.46.179:8081/auth/login
-```
-```
-{"email":"user@example.com","password":"wrong"}
+http://185.250.46.179:8082/api/v1/admin/stats
 ```
 
-<img width="417" height="445" alt="image" src="https://github.com/user-attachments/assets/85c6ef6f-d9b2-4596-b0a5-84b31ddeca63" />
+<img width="606" height="377" alt="Снимок экрана 2025-12-09 в 18 04 54" src="https://github.com/user-attachments/assets/ace420ad-23be-4fee-bb71-3f970cf894c5" />
+
 
 ------
